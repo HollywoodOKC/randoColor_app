@@ -18,7 +18,7 @@ const randoColor = () => {
             colorHSL.innerHTML = `${apiResponse.hsl.value}`;
         }).catch(error => {
             console.log(error);
-        })
+        });
 };
 
 colorButton.addEventListener('click', randoColor);
