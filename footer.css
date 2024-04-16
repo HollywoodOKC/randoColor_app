@@ -1,7 +1,11 @@
 @font-face {
   font-family: Nabla;
-  src: url("../fonts/Nabla-Regular-VariableFont_EDP.ttf");
+  src: url("./fonts/Nabla-Regular-VariableFont_EDP.ttf");
   font-weight: normal;
+}
+
+footer {
+  background-color: hsl(0, 0%, 87.1%);
 }
 
 #footer {

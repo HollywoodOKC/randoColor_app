@@ -1,6 +1,10 @@
 const colorButton = document.getElementById('colorBtn');
 const colorHex = document.getElementById('colorHex');
 const colorHSL = document.getElementById('colorHSL');
+const year = document.getElementById('year');
+
+const D = new Date();
+year.innerHTML = D.getFullYear();
 
 const randoColor = () => {
     let val = 0xFFFFFF;
