@@ -8,6 +8,10 @@ footer {
   background-color: hsl(0, 0%, 87.1%);
 }
 
+.row {
+  width: 100%;
+}
+
 #footer {
   display: block;
   margin-left: auto;
