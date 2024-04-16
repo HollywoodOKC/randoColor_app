@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Nabla;
+  src: url("../fonts/Nabla-Regular-VariableFont_EDP.ttf");
+  font-weight: normal;
+}
+
+#footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 75%;
+  font-size: 1rem;
+  font-family: "Nabla", sans-serif;
+  border: 3px solid hsl(210.7, 42.9%, 38.4%);
+  border-radius: 7px;
+  background-color: hsl(0, 0%, 0%);
+}
